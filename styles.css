@@ -12,12 +12,6 @@
     width: 100%;
     background-color: red;
 }
-  
-body {
-    background-image: url('static/background.png');
-    background-repeat: repeat;
-    background-size: cover;
-}
 
 .navbar-brand {
     position: absolute;
