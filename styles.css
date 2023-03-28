@@ -43,7 +43,8 @@ nav {
 /* best part of the code */
 body {
   padding: 20px;
-  background: lighten(#efdba6, 15);
+  background-color: #efdba6;
+  filter: brightness(85%);
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
 }
