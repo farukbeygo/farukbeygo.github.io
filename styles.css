@@ -35,7 +35,7 @@ nav {
 
 .navbar-brand {
     font-size: 26px;
-    font-family: 'Star Wars', sans-serif;
+    font-family: 'Star Jedi', arial;
     font-weight: bold;
     font-style: normal;
 }
@@ -44,7 +44,6 @@ nav {
 body {
   padding: 20px;
   background-color: #efdba6;
-  filter: brightness(85%);
   text-align: center;
   font-family: Helvetica, Arial, sans-serif;
 }
