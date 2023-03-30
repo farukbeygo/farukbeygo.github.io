@@ -103,7 +103,7 @@ footer {
 
 body {
     padding: 20px;
-    background: lighten(#0b3954, 15);
+    background: rgba(11, 57, 84, 0.85);;
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
 }
