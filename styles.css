@@ -4,13 +4,13 @@
 .top-line {
     height: 3px;
     width: 100%;
-    background-color: blue;
+    background-color: #c81d25;
 }
   
 .bottom-line {
     height: 3px;
     width: 100%;
-    background-color: red;
+    background-color: #ff5a5f;
 }
 
 .navbar-brand {
@@ -76,8 +76,8 @@ p {
 }
 
 footer {
-    background-color: #000;
-    color: #fff;
+    background-color: #bfd7ea;
+    color: black;
     padding: 10px;
     text-align: center;
 }
@@ -89,11 +89,34 @@ footer {
 
 
 #about {
-    background-image: url('static/background.png');
+    background: #087e8b;
 }
 
 #news {
-    background-image: url('static/background.png');
+    background: #087e8b;
+}
+
+#team {
+    background: #087e8b;
 }
   
+<<<<<<< Updated upstream
 
+=======
+body {
+    padding: 20px;
+    background: lighten(#0b3954, 15);
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+canvas,
+svg{
+    width: 100% !important;
+    max-width: 1000px !important;
+    height: auto !important;
+    position: relative;
+    margin: 10px auto 0;
+    display: block;
+}
+>>>>>>> Stashed changes
