@@ -4,7 +4,7 @@ Welcome to my GitHub server! This server is where I host all of my public and pr
 
 ## Accessing the Server
 
-To access my GitHub server, simply navigate to [my GitHub profile](https://github.com/your-username) and look for the repositories listed there. If a repository is public, you'll be able to view and clone it directly from GitHub. If a repository is private, you'll need to be granted access by me before you can view or clone it.
+To access my GitHub server, simply navigate to [my GitHub profile](https://github.com/farukbeygo) and look for the repositories listed there. If a repository is public, you'll be able to view and clone it directly from GitHub. If a repository is private, you'll need to be granted access by me before you can view or clone it.
 
 ## Contributing to Repositories
 
