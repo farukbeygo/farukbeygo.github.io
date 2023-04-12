@@ -4,10 +4,10 @@ function App(conf) {
   conf = {
     fov: 75,
     cameraZ: 150,
-    tubeRadius: 0.05,
+    tubeRadius: 0.01,
     tubeLength: 400,
     pRadius: true,
-    resY: 6,
+    resY: 12,
     resX: 6,
     noiseCoef: 50,
     timeCoef: 1,
