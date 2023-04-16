@@ -4,7 +4,7 @@ function App(conf) {
   conf = {
     fov: 75,
     cameraZ: 150,
-    tubeRadius: 0.05,
+    tubeRadius: 0.04,
     tubeLength: 500,
     pRadius: true,
     resY: 10,
