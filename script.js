@@ -13,7 +13,7 @@ function App(conf) {
     timeCoef: 1,
     mouseCoef: 50,
     heightCoef: 100,
-    colors: [0x390009, 0xe52643, 0xeadee0, 0xffffff],
+    colors: [0x38a3a5, 0x57cc99, 0x80ed99, 0xc7f9cc],
     background: 0x000000,
     ambientColor: 0x909090,
     lightIntensity: 1,
