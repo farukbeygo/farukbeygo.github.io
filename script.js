@@ -2,16 +2,16 @@ const simplex = new SimplexNoise();
 
 function App(conf) {
   conf = {
-    fov: 75,
+    fov: 50,
     cameraZ: 150,
-    tubeRadius: 0.04,
+    tubeRadius: 0.0125,
     tubeLength: 500,
     pRadius: true,
     resY: 10,
-    resX: 10,
+    resX: 1,
     noiseCoef: 75,
     timeCoef: 1,
-    mouseCoef: 50,
+    mouseCoef: 0,
     heightCoef: 100,
     colors: [0x38a3a5, 0x57cc99, 0x80ed99, 0xc7f9cc],
     background: 0x000000,
@@ -51,13 +51,13 @@ function App(conf) {
     updateSize();
     window.addEventListener('resize', updateSize, false);
 
-    document.addEventListener('mousemove', e => {
-      mouse.x = e.clientX / width * 2 - 1;
-      mouse.y = -(e.clientY / height) * 2 + 1;
-    });
+    // document.addEventListener('mousemove', e => {
+    //  mouse.x = e.clientX / width * 2 - 1;
+    //  mouse.y = -(e.clientY / height) * 2 + 1;
+    // });
 
     initScene();
-    initGui();
+    // initGui();
     animate();
   }
 
@@ -123,7 +123,7 @@ function App(conf) {
     noiseConf.time = Date.now() * conf.timeCoef * 0.000005;
     noiseConf.mouseX = mouse.x / 3;
     noiseConf.mouseY = mouse.y / 3;
-    // noiseConf.mouse = (mouse.x + mouse.y) * conf.mouseCoef * 0.005;
+    //noiseConf.mouse = (mouse.x + mouse.y) * conf.mouseCoef * 0.005;
   }
 
   function updateColors() {
@@ -160,6 +160,7 @@ function App(conf) {
     light3.position.x = Math.sin(time * 0.5) * dx;
     light3.position.y = Math.sin(time * 0.6) * dy;
 
+    
     updateNoise();
     for (let i = 0; i < objects.length; i++) {
       objects[i].update(conf);
